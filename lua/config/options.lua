@@ -4,14 +4,14 @@
 -- ================================================================================================
 
 -- Basic Settings
-vim.opt.number = true              -- Line numbers
-vim.opt.relativenumber = true      -- Relative line numbers
-vim.opt.cursorline = true          -- Highlight current line
-vim.opt.scrolloff = 10             -- Keep 10 lines above/below cursor
-vim.opt.sidescrolloff = 8          -- Keep 8 columns left/right of cursor
-vim.opt.wrap = false               -- Don't wrap lines
-vim.opt.cmdheight = 1              -- Command line height
-vim.opt.spelllang = { "en", "de" } -- Set language for spellchecking
+vim.opt.number = true         -- Line numbers
+vim.opt.relativenumber = true -- Relative line numbers
+vim.opt.cursorline = true     -- Highlight current line
+vim.opt.scrolloff = 10        -- Keep 10 lines above/below cursor
+vim.opt.sidescrolloff = 8     -- Keep 8 columns left/right of cursor
+vim.opt.wrap = false          -- Don't wrap lines
+vim.opt.cmdheight = 1         -- Command line height
+vim.opt.spelllang = { "en" }  -- Set language for spellchecking
 
 -- Tabbing / Indentation
 vim.opt.tabstop = 2                -- Tab width
@@ -32,7 +32,7 @@ vim.opt.incsearch = true  -- Show matches as you type
 -- Visual Settings
 vim.opt.termguicolors = true                      -- Enable 24-bit colors
 vim.opt.signcolumn = "yes"                        -- Always show sign column
-vim.opt.colorcolumn = "100"                       -- Show column at 100 characters
+-- vim.opt.colorcolumn = "100"                       -- Show column at 100 characters
 vim.opt.showmatch = true                          -- Highlight matching brackets
 vim.opt.matchtime = 2                             -- How long to show matching bracket
 vim.opt.completeopt = "menuone,noinsert,noselect" -- Completion options
@@ -85,14 +85,14 @@ vim.opt.wildmode = "longest:full,full"  -- Completion mode for command-line
 vim.opt.wildignorecase = true           -- Case-insensitive tab completion in commands
 
 -- Cursor Settings
-vim.opt.guicursor = {
-  "n-v-c:block",                                         -- Normal, Visual, Command-line
-  "i-ci-ve:block",                                       -- Insert, Command-line Insert, Visual-exclusive
-  "r-cr:hor20",                                          -- Replace, Command-line Replace
-  "o:hor50",                                             -- Operator-pending
-  "a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor", -- All modes: blinking & highlight groups
-  "sm:block-blinkwait175-blinkoff150-blinkon175",        -- Showmatch mode
-}
+-- vim.opt.guicursor = {
+--   "n-v-c:block",                                         -- Normal, Visual, Command-line
+--   "i-ci-ve:block",                                       -- Insert, Command-line Insert, Visual-exclusive
+--   "r-cr:hor20",                                          -- Replace, Command-line Replace
+--   "o:hor50",                                             -- Operator-pending
+--   "a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor", -- All modes: blinking & highlight groups
+--   "sm:block-blinkwait175-blinkoff150-blinkon175",        -- Showmatch mode
+-- }
 
 -- Folding Settings
 vim.opt.foldmethod = "expr"                          -- Use expression for folding
