@@ -74,4 +74,4 @@ vim.api.nvim_create_autocmd('LspAttach', {
 -- Ebanble LSPs
 -- Lua
 vim.lsp.enable('lua_ls')
-vim.lsp.enable('bash_ls')
+vim.lsp.enable('bashls')
