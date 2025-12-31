@@ -2,8 +2,8 @@ return {
   "folke/which-key.nvim",
   event = "VeryLazy",
   opts = {
-    win = {
-      height = 5,
-    },
+    -- win = {
+    --   height = 5,
+    -- },
   },
 }
