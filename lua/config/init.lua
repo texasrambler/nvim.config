@@ -35,7 +35,7 @@ require("lazy").setup({
 })
 
 -- colorscheme
-vim.cmd("colorscheme tokyonight-storm")
+vim.cmd("colorscheme oasis")
 
 -- Mason is currently loaded as a plugin to enable easy downloading of
 -- LSP servers, linters, DAPs and formatters.
